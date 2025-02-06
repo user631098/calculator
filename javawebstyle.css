@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+.topbox {
+    background-color: rgb(245, 245, 245);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topbox h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+
+
+.calcborder {
+    border: 2px solid gold;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+}
+.resultpad {
+    background-color: whitesmoke;
+    width: 99%;
+    height: 80px;
+    margin-top: 3px;
+    margin-left: 2px;
+    position: relative;
+    overflow: hidden;
+}
+.rbuttons {
+    width: 24%;
+    cursor: pointer;
+    height: 12vh;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 150%;
+    border: 1px solid goldenrod;
+}
+.calcborder button:hover {
+    background-color: black;
+    color: white;
+}
+.resulttext {
+    font-size: 30px;
+    position: absolute;
+    bottom: -2;
+    right: 0;
+    margin-top: 40px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.topresult {
+    color: gray;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.clear {
+    width: 49%;
+    height: 12vh;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 150%;
+}
+.errortext {
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 15vh;
+    margin-bottom: 5px;
+    width: 43%;
+    border-radius: 20px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.endbox {
+    width: 100vw;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: -15px;
+    margin-left: -5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.endbox p {
+    font-weight: bold;
+    color: gray;
+}
